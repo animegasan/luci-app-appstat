@@ -2,7 +2,7 @@ module("luci.controller.appstat", package.seeall)
 
 function index()
     entry({"admin", "services", "appstat"}, cbi("appstat"), _("App Status"), 13)
-    entry({"admin", "services", "appstat", "status"}, call("act_status"))
+    entry({"admin", "services", "appstat", "appstatus"}, call("act_status"))
 end
 
 function act_status()
