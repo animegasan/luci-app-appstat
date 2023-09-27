@@ -1,0 +1,8 @@
+
+config appstat 'config'
+	option clash '1'
+	option cloudflared '1'
+	option dockerd '1'
+	option ngrok '1'
+	option smbd '1'
+	option zerotier '1'
