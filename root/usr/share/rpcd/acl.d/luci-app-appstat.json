@@ -1,0 +1,11 @@
+{
+	"luci-app-appstat": {
+		"description": "Grant access to luci-app-appstat",
+		"read": {
+			"uci": [ "appstat" ]
+		},
+		"write": {
+			"uci": [ "appstat" ]
+		}
+	}
+}
